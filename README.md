@@ -8,6 +8,7 @@ This project provides bindings for the Google Play Services library built agains
 
 ## Build instructions ##
  * Place Xamarin.Android.Support.v4-r18.dll into the ThirdParty folder. It can be downloaded from the Xamarin component store.
+ * Install the google play services component in the Android SDK manager.
  * Set the `ANDROID_SDK_HOME` environment variable to the root of your Android SDK folder.
  * Build the play services library in eclipse.  ( See below )
  * Run psake.cmd

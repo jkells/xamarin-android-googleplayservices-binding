@@ -64,4 +64,14 @@ task Test-Environment{
     if(-not (Test-Path "$play_services_dir\bin")){        
         throw "Please compile the play services project in eclipse before building this project"
     }
+
+    if(-not (Test-Path "$play_services_dir\bin")){        
+        throw "Please compile the play services project in eclipse before building this project"
+    }
+
+    Write-Host "$base_dir\ThirdParty\Xamarin.Android.Support.v4-r18.dll"
+
+    if(-not (Test-Path "$base_dir\ThirdParty\Xamarin.Android.Support.v4-r18.dll")){
+        throw "Please place the file 'Xamarin.Android.Support.v4-r18.dll' into the ThirdParty folder. It can be downloaded from the Xamarin component store: http://components.xamarin.com/view/xamandroidsupportv13-18/"
+    }
 }

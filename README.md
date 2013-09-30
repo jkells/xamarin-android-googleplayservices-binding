@@ -1,7 +1,5 @@
 # Xamarin.Android.GooglePlayServices.Binding #
 
----
-
 ## About ##
 
 This project provides bindings for the Google Play Services library built against the latest version of the V4 support library. Currently **revision 18**.

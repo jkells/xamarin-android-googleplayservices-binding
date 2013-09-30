@@ -39,7 +39,7 @@ task Copy-Jars -depends Clean,Test-Environment{
     Copy-Item -Recurse -Force "$play_services_dir\bin" "$jar_dir"
     Copy-Item -Recurse -Force "$play_services_dir\res" "$jar_dir"
     
-    # Eclipse is putting the drawables in a "crunch" folder which Xamarin Android isn't expecting"
+    # Eclipse is putting the drawables in a "crunch" folder which Xamarin Android isn't expecting
     Move-Item "$jar_dir\bin\res\crunch\*" "$jar_dir\bin\res\"
     Remove-Item "$jar_dir\bin\res\crunch"
 

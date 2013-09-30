@@ -1,0 +1,32 @@
+<metadata> 
+  <remove-node path="/api/package[@name='com.google.android.gms.location']/class[@name='LocationRequestCreator']"/>  
+  <remove-node path="/api/package[@name='com.google.android.gms.maps.model']/class[@name='CameraPositionCreator']"/>
+  <remove-node path="/api/package[@name='com.google.android.gms.location']/class[@name='ActivityRecognitionResultCreator']"/>
+  <remove-node path="/api/package[@name='com.google.android.gms.games']/class[@name='GameEntityCreator']"/>
+  <remove-node path="/api/package[@name='com.google.android.gms.games.multiplayer']/class[@name='InvitationEntityCreator']"/>
+  <remove-node path="/api/package[@name='com.google.android.gms.games.multiplayer']/class[@name='ParticipantEntityCreator']"/>
+  <remove-node path="/api/package[@name='com.google.android.gms.games.multiplayer.realtime']/class[@name='RoomEntityCreator']"/>
+  <remove-node path="/api/package[@name='com.google.android.gms.games']/class[@name='PlayerEntityCreator']"/>
+  <remove-node path="/api/package[@name='com.google.android.gms.location']/class[@name='DetectedActivityCreator']"/>
+  <remove-node path="/api/package[@name='com.google.android.gms.maps']/class[@name='GoogleMapOptionsCreator']"/>
+  <remove-node path="/api/package[@name='com.google.android.gms.maps.model']/class[@name='CircleOptionsCreator']"/>
+  <remove-node path="/api/package[@name='com.google.android.gms.maps.model']/class[@name='GroundOverlayOptionsCreator']"/>
+  <remove-node path="/api/package[@name='com.google.android.gms.maps.model']/class[@name='LatLngBoundsCreator']"/>
+  <remove-node path="/api/package[@name='com.google.android.gms.maps.model']/class[@name='LatLngCreator']"/>
+  <remove-node path="/api/package[@name='com.google.android.gms.maps.model']/class[@name='MarkerOptionsCreator']"/>
+  <remove-node path="/api/package[@name='com.google.android.gms.maps.model']/class[@name='PolygonOptionsCreator']"/>
+  <remove-node path="/api/package[@name='com.google.android.gms.maps.model']/class[@name='PolylineOptionsCreator']"/>
+  <remove-node path="/api/package[@name='com.google.android.gms.maps.model']/class[@name='TileCreator']"/>
+  <remove-node path="/api/package[@name='com.google.android.gms.maps.model']/class[@name='TileOverlayOptionsCreator']"/>
+  <remove-node path="/api/package[@name='com.google.android.gms.maps.model']/class[@name='VisibleRegionCreator']"/>
+
+  <attr path="/api/package[@name='com.google.android.gms.appstate']/class[@name='AppStateBuffer']/method[@name='get' and count(parameter)=1 and parameter[1][@type='int']]" name="return">Java.Lang.Object</attr>
+  <attr path="/api/package[@name='com.google.android.gms.games.achievement']/class[@name='AchievementBuffer']/method[@name='get' and count(parameter)=1 and parameter[1][@type='int']]" name="return">Java.Lang.Object</attr>
+  <attr path="/api/package[@name='com.google.android.gms.games']/class[@name='GameBuffer']/method[@name='get' and count(parameter)=1 and parameter[1][@type='int']]" name="return">Java.Lang.Object</attr>
+  <attr path="/api/package[@name='com.google.android.gms.games.leaderboard']/class[@name='LeaderboardScoreBuffer']/method[@name='get' and count(parameter)=1 and parameter[1][@type='int']]" name="return">Java.Lang.Object</attr>
+  <attr path="/api/package[@name='com.google.android.gms.games.multiplayer']/class[@name='ParticipantBuffer']/method[@name='get' and count(parameter)=1 and parameter[1][@type='int']]" name="return">Java.Lang.Object</attr>
+  <attr path="/api/package[@name='com.google.android.gms.games']/class[@name='PlayerBuffer']/method[@name='get' and count(parameter)=1 and parameter[1][@type='int']]" name="return">Java.Lang.Object</attr>
+  <attr path="/api/package[@name='com.google.android.gms.plus.model.moments']/class[@name='MomentBuffer']/method[@name='get' and count(parameter)=1 and parameter[1][@type='int']]" name="return">Java.Lang.Object</attr>
+  <attr path="/api/package[@name='com.google.android.gms.plus.model.people']/class[@name='PersonBuffer']/method[@name='get' and count(parameter)=1 and parameter[1][@type='int']]" name="return">Java.Lang.Object</attr>
+</metadata>
+

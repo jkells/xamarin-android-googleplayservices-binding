@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Xamarin.Android.GooglePlayServices.Binding</id>
+    <version>12.0.1000</version>
+    <authors>Android Open Source Project</authors>    
+	<owners>Jared Kells</owners>    
+    <licenseUrl>http://developer.android.com/sdk/terms.html</licenseUrl>
+    <projectUrl>http://developer.android.com/google/play-services/</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Google Play Services binding library.</description>    
+    <copyright>Copyright 2013</copyright>
+    <tags>android</tags>    
+	<dependencies>
+	  <dependency id="Xamarin.Android.Support.V4" version="4.18.0.0" />
+    </dependencies>
+  </metadata>
+    <files>
+	<file src="bin\release\Xamarin.Android.GooglePlayServices.dll" target="lib\MonoAndroid" />
+	<file src="bin\release\Xamarin.Android.GooglePlayServices.pdb" target="lib\MonoAndroid" />
+  </files>
+</package>

@@ -1,4 +1,29 @@
-<metadata> 
+<metadata>
+  <remove-node path="/api/package[starts-with(@name, 'com.google.android.gms.common.internal')]"/>
+  <remove-node path="/api/package[starts-with(@name, 'com.google.android.gms.maps.internal')]"/>
+  <remove-node path="/api/package[starts-with(@name, 'com.google.android.gms.maps.model.internal')]"/>
+  
+  <attr path="/api/package[@name='com.google.android.gms.appstate']" name="managedName">Android.Gms.AppState</attr>
+  <attr path="/api/package[@name='com.google.android.gms.auth']" name="managedName">Android.Gms.Auth</attr>
+  <attr path="/api/package[@name='com.google.android.gms.common']" name="managedName">Android.Gms.Common</attr>
+  <attr path="/api/package[@name='com.google.android.gms.common.annotation']" name="managedName">Android.Gms.Common.Annotation</attr>
+  <attr path="/api/package[@name='com.google.android.gms.common.data']" name="managedName">Android.Gms.Common.Data</attr>
+  <attr path="/api/package[@name='com.google.android.gms.common.images']" name="managedName">Android.Gms.Common.Images</attr>
+  <attr path="/api/package[@name='com.google.android.gms.dynamic']" name="managedName">Android.Gms.Dynamic</attr>
+  <attr path="/api/package[@name='com.google.android.gms.games']" name="managedName">Android.Gms.Games</attr>
+  <attr path="/api/package[@name='com.google.android.gms.games.achievement']" name="managedName">Android.Gms.Games.Achievement</attr>
+  <attr path="/api/package[@name='com.google.android.gms.games.leaderboard']" name="managedName">Android.Gms.Games.Leaderboard</attr>
+  <attr path="/api/package[@name='com.google.android.gms.games.multiplayer']" name="managedName">Android.Gms.Games.Multiplayer</attr>
+  <attr path="/api/package[@name='com.google.android.gms.games.multiplayer.realtime']" name="managedName">Android.Gms.Games.Multiplayer.Realtime</attr>
+  <attr path="/api/package[@name='com.google.android.gms.gcm']" name="managedName">Android.Gms.Gcm</attr>
+  <attr path="/api/package[@name='com.google.android.gms.location']" name="managedName">Android.Gms.Location</attr>
+  <attr path="/api/package[@name='com.google.android.gms.maps']" name="managedName">Android.Gms.Maps</attr>
+  <attr path="/api/package[@name='com.google.android.gms.maps.model']" name="managedName">Android.Gms.Maps.Model</attr>
+  <attr path="/api/package[@name='com.google.android.gms.panorama']" name="managedName">Android.Gms.Panorama</attr>
+  <attr path="/api/package[@name='com.google.android.gms.plus']" name="managedName">Android.Gms.Plus</attr>
+  <attr path="/api/package[@name='com.google.android.gms.plus.model.moments']" name="managedName">Android.Gms.Plus.Model.Moments</attr>
+  <attr path="/api/package[@name='com.google.android.gms.plus.model.people']" name="managedName">Android.Gms.Plus.Model.Perople</attr>    
+  
   <remove-node path="/api/package[@name='com.google.android.gms.location']/class[@name='LocationRequestCreator']"/>  
   <remove-node path="/api/package[@name='com.google.android.gms.maps.model']/class[@name='CameraPositionCreator']"/>
   <remove-node path="/api/package[@name='com.google.android.gms.location']/class[@name='ActivityRecognitionResultCreator']"/>

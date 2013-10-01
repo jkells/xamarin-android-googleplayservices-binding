@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
-<package >
+<package>
   <metadata>
     <id>Xamarin.Android.GooglePlayServices.Binding</id>
-    <version>12.0.1000</version>
+    <version>12.0.1002</version>
     <authors>Android Open Source Project</authors>    
 	<owners>Jared Kells</owners>    
     <licenseUrl>http://developer.android.com/sdk/terms.html</licenseUrl>
@@ -15,7 +15,7 @@
 	  <dependency id="Xamarin.Android.Support.V4" version="4.18.0.0" />
     </dependencies>
   </metadata>
-    <files>
+  <files>
 	<file src="bin\release\Xamarin.Android.GooglePlayServices.dll" target="lib\MonoAndroid" />
 	<file src="bin\release\Xamarin.Android.GooglePlayServices.pdb" target="lib\MonoAndroid" />
   </files>
